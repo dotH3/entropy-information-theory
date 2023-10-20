@@ -1,9 +1,13 @@
 console.clear();
+
+// ELECCIONES POSIBLES
 const input = ' qwertyuiopasdfghjklzxcvbnm'
 const N = input.split('');
 
-const bits = []
+// BITS PARA LA ELECCION
+const bits = [0,0,0,0]
 
+// ENTROPIA
 const HInicial = Math.log2(N.length);
 console.log('ENTROPIA INICIAL', HInicial);
 
